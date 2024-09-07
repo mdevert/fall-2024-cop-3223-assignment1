@@ -3,8 +3,11 @@
 
 // If I have to spell out what each function does in excruciating
 // detail for this whole semester, I'm going to go insane.
-// UCF hates transfer credit, but I have taken both CS1 and CS2
+// I have taken both CS1 and CS2 but UCF hates transfer credit
 // so have some pass by reference for fun.
+
+// I know my comments aren't the cleanest, thats on me for waiting 
+// to implement them until last minute since I kept changing things
 
 #include <math.h>
 #include <stdio.h>
@@ -67,10 +70,11 @@ double calculate_perimeter() {
 
     // took too much guesswork to find what was required of this assignment 
     // which is why this is any higher than 1
+    // I did ChatGPT this function, though I knew it existed in some capacity
     return nextafter(1.0, 2.0); // = 1.0000000000000002220446049250313080847263336181640625;
 }
 
-// Uses the values of distance_function() and 
+// Uses the values of distance_input() and 
 // #define PI to find and print the area of
 // the circle defined by the given diameter
 double calculate_area() {
@@ -88,7 +92,7 @@ double calculate_area() {
     return 1;
 }
 
-// Uses the value of distance_function() 
+// Uses the value of distance_input() 
 // as the width of the circle defined by 
 // the given diameter and prints it
 double calculate_width() {
@@ -104,7 +108,7 @@ double calculate_width() {
     return 0.0;
 }
 
-// Uses the value of distance_function() 
+// Uses the value of distance_input() 
 // as the height of the circle defined by 
 // the given diameter and prints it
 double calculate_height() {
