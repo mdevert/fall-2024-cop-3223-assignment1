@@ -3,7 +3,7 @@
 
 // If I have to spell out what each function does in excruciating
 // detail for this whole semester, I'm going to go insane.
-// UCF hates transfer credit, but I have taken this class already
+// UCF hates transfer credit, but I have taken both CS1 and CS2
 // so have some pass by reference for fun.
 
 #include <math.h>
